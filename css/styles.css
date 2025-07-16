@@ -162,10 +162,12 @@ p {
     padding: 24px 0;
     display: block;
     position: relative;
-    color: var(--ocean);
+    color: var(--navy-blue);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+  .room {
+    color: var(--ocean);
+  }
   .room::after {
     content: "";
     width: 100%;
@@ -412,7 +414,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img.jpg);
+    url(../images/img-name.jpgg);
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
@@ -929,6 +931,21 @@ p {
 
 .subscribe-button {
   margin-left: 16px;
+  max-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
