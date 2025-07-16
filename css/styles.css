@@ -414,7 +414,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpgg);
+    url(../images/hero-img.jpg);
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
@@ -946,6 +946,7 @@ p {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  fill: var(--white);
 }
 
 @media screen and (min-width: 768px) {
@@ -969,6 +970,14 @@ p {
 
   .bass {
     justify-content: start;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--iris);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
   }
 
   .office-links,
