@@ -425,7 +425,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-resolution: 2x) {
+@media screen and (min-width: 320px) and (min-resolution: 2x) {
   .main-text {
     background-image: linear-gradient(
         to bottom,
