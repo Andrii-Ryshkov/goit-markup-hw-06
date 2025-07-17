@@ -426,7 +426,7 @@ p {
   margin-right: auto;
 }
 @media screen and (min-resolution: 2x) {
-  .hero {
+  .main-text {
     background-image: linear-gradient(
         to bottom,
         rgba(46, 47, 66, 0.7),
